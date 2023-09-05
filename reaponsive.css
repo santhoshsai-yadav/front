@@ -1,0 +1,14 @@
+@media (maxwidth:576px) {
+    .indexs{
+        display: flex;
+        flex-direction: column;
+    }
+    .known p{
+        text-align: left;
+    }
+    
+    
+    .course {
+        padding: 0px 50px;
+    }
+}

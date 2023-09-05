@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Edu+SA+Beginner:wght@500;600;700&family=Kaushan+Script&family=Merienda&family=Nunito:wght@200;300;400;500;600&family=Poppins:wght@300;400&family=Roboto:wght@100;300;400;500;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&family=Sedgwick+Ave+Display&family=VT323&family=Ysabeau+SC:wght@200;300;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: 0;
+}
+
+:root {
+    --primary-color: #4458dc;
+    --secondary-color: #854fee;
+    --font-family: 'Rubik', sans-serif;
+}
+
+.nav-item {
+    text-transform: uppercase;
+    
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+}
+
+.nav-link:hover {
+    color: #4458dc !important;
+}
+.navbar{
+    background-color: #faf8ff;
+    height: 10vh;
+}
+
+.herocontainer {
+    align-items: center;
+    background-image: url(./images/home-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.herocontent h2{
+    font-family: var(--font-family);
+}
+.herocontent h1{
+    font-family: var(--font-family);
+}
+.herocontent h3{
+    font-family: var(--font-family);
+}
+
+
+.herocontent button {
+
+    width: 100px;
+    height: 40px;
+    color: #854fee;
+    border: 1px solid #854fee !important;
+    font-family: var(--font-family);
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.herocontent button:hover {
+    color: white;
+    background-color: var(--secondary-color);
+}
+
+.but {
+    width: 150px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: white;
+    border: 1px solid var(--secondary-color);
+    border-radius: 8px;
+    color: white;
+    background-color: var(--secondary-color);
+    font-weight: 500;
+    font-family: var(--font-family);
+}
+
+.but:hover {
+    background-color: white;
+    color: var(--secondary-color);
+}
+.bout img{
+    height: 450px;
+}
+
+.bout-content h2 {
+    font-family: var(--font-family);
+    font-size: 25px;
+    font-weight: 600;
+}
+.bout-content .para1{
+    font-family: var(--font-family);
+}
+.bout-content .para2{
+    font-family: var(--font-family);
+}
+.known h2{
+    font-family: var(--font-family);
+}
+
+
+.lore{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #777777 !important;
+}
+
+
+.cards{
+    background-color: #faf8ff !important;
+    border:1px solid white;
+    box-shadow: 1px 1px 1px white;
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #777777 !important;
+    cursor: pointer;
+}
+
+.cards img{
+   padding:10px 70px;
+}
+.cards:hover{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
+    transition: 1.1s;
+    transform: scale(1);
+}
+.btn{
+    background-color: #854fee !important;
+    color: #faf8ff !important;
+    border: 1px solid  #854fee !important;
+
+}
+.btn:hover{
+    color: #854fee !important;
+    background-color: #faf8ff !important;
+}
+.layout img{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px gray;
+}
+.layout h2{
+    font-family: var(--font-family);
+    font-size: 25px;
+    color: black !important;
+  font-weight: 500;
+}
+.layout h5{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #777777 !important;  
+    font-weight: lighter;
+}
+.layout img:hover{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
+    transition: 1.1s;
+    transform: scale(1);
+}
+.outcome h2{
+    font-family: var(--font-family);
+    font-size: 25px;
+    color: black !important;
+  
+}
+.outcome h5{
+    font-family: var(--font-family);
+    font-size: 15px;
+    color: #777777 !important;  
+    font-weight: lighter;
+}
+.outcome img:hover{
+    box-shadow: 0 0.9375rem 1.875rem rgb(77 87 222 / 30%);
+    background: var(--bg-white);
+    transition: 1.1s;
+    transform: scale(1);
+}
+.outcome img{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px gray; 
+}
+.scpirt p{
+  padding: 0px 50px;
+  font-family: var(--font-family);
+  font-size: 15px;
+  color: #777777 !important;  
+  font-weight: lighter;
+}
+.footersection{
+    background-image: url(./images/subscribe-bg.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 160px 100px;
+    
+
+}
+.get{
+    font-family: var(--font-family);
+  font-size: 15px;
+  color: white !important;  
+  font-weight: lighter;
+}
+.get h5{
+    font-family: var(--font-family);
+  font-size: 13px;
+  color: white !important;  
+ font-weight: lighter;
+}
+.styless button{
+    background-color: #faf8ff !important;
+    border: 1px solid #faf8ff;
+    text-transform: uppercase;
+    color:#854fee;
+    border-radius: 5px;
+    font-weight: 500;
+    width: 150px;
+    height: 40px;
+
+}
+.styless button:hover{
+color: #faf8ff;
+background-color:#854fee !important;
+}
+.icon{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.icon i:hover{
+    color: #4458dc;
+}
+
+.copy h6{
+    font-family: var(--font-family);
+  font-size: 15px;
+  color: #777777  !important;  
+ font-weight: lighter;
+}
+.hello{
+    border: 2px solid #faf8ff;
+    background-color: transparent;
+     color: aliceblue;
+   border-radius: 2px;
+   width: 400px;
+   height: 40px;
+} 
+.hello::placeholder{
+    color: white;
+}
+.copy span{
+    color: #4458dc;
+    font-weight: 500;
+}
+.cardheaderone img{
+    
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    /* width: 100%; */
+}
+ .card-bodyone .onees{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+} 
+
+.blog_wrapper .card{
+    position: relative;
+    cursor: pointer;
+}
+.blog_wrapper .blog_details{
+    position: absolute;
+    top: 1.25rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    background: rgba(34, 34, 34, .8);
+    color: var(--text-white);
+    transition: all .3s linear;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blog_wrapper .card:hover .blog_details{
+    background: rgba(68, 88, 220, .85);
+}
+.blog_wrapper .blog_details .border_line{
+    background: var(--bg-white);
+    margin: 0.625rem 0;
+    width: 100%;
+    height: 0.125rem;
+}
+.quality h2{
+    font-family: var(--font-family);
+}
+.blog_wrapper h2{
+    font-family: var(--font-family); 
+}
+.blog_wrapper p{
+    font-family: var(--font-family); 
+}
+.para-wrapper{
+    font-family: var(--font-family);  
+    color: #777777 !important;  
+}
+.nav-link .active{
+    background: transparent !important;
+    color:#777777 !important;
+}
+.fllow h5{
+    font-family: var(--font-family);   
+}
